@@ -15,7 +15,7 @@ export class Sabnzbd implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'SABnzbd',
 		name: 'sabnzbd',
-		icon: { light: 'file:sabnzbd.svg', dark: 'file:sabnzbd.svg' },
+		icon: { light: 'file:sabnzbd.svg', dark: 'file:sabnzbd.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
