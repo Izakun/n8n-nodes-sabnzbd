@@ -30,6 +30,19 @@ Create a **SABnzbd API** credential:
 - **Base URL** — e.g. `http://sabnzbd:8080` (the node calls `/api`).
 - **API Key** — SABnzbd → Config → General → API Key. Sent as the `apikey` query parameter.
 
+## Usage example
+
+Read the download queue:
+
+1. Add the node after a trigger (e.g. *When clicking 'Test workflow'*).
+2. Select your credential.
+3. **Get Queue**.
+4. Execute the node — example output:
+
+```json
+{ "status": "Downloading", "speed": "5.2 M", "noofslots": 2, "timeleft": "0:04:12" }
+```
+
 ## Disclaimer
 
 This project isn't affiliated with or endorsed by the SABnzbd project. SABnzbd is the
