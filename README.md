@@ -3,14 +3,26 @@
 # n8n-nodes-sabnzbd
 
 [![npm version](https://img.shields.io/npm/v/n8n-nodes-sabnzbd.svg)](https://www.npmjs.com/package/n8n-nodes-sabnzbd)
+[![npm downloads](https://img.shields.io/npm/dm/n8n-nodes-sabnzbd.svg)](https://www.npmjs.com/package/n8n-nodes-sabnzbd)
 [![License: MIT](https://img.shields.io/npm/l/n8n-nodes-sabnzbd.svg)](./LICENSE)
+[![n8n verified](https://img.shields.io/badge/n8n-verified%20community%20node-EA4B71)](https://docs.n8n.io/integrations/community-nodes/installation/verified-install/)
 
 Community node for n8n to control a [SABnzbd](https://sabnzbd.org/) usenet downloader
 through its HTTP API.
 
+> ✅ **Verified community node** — installable directly from the n8n node panel
+> (self-hosted **and** n8n Cloud).
+
 ## Installation
 
-In n8n: **Settings → Community Nodes → Install** and enter `n8n-nodes-sabnzbd`.
+This is a **verified** community node: in n8n click **+ (Add node)**, search for
+**SABnzbd**, and add it — no manual install needed.
+
+<details>
+<summary>Manual install (older n8n, or as an unverified package)</summary>
+
+Go to **Settings → Community Nodes → Install** and enter `n8n-nodes-sabnzbd`.
+</details>
 
 ## Operations
 
